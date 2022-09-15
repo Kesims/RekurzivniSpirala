@@ -10,9 +10,11 @@
 
 ## Řešení - výstup
 l = 500, d = 50
+
 ![img.png](img.png)
 
 l = 500, d = 11
+
 ![img_1.png](img_1.png)
 
 ## Popis řešení
