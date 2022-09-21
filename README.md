@@ -45,3 +45,7 @@ A (*deltaY*) je nastavena na 0;
 Následuje už jen opětovné zavolání metody s právě vypočtenými parametry.
 
 ![img_3.png](img_3.png)
+
+
+### Složitost algoritmu
+Složitost výše popsaného algoritmu je lineární (O(n))
