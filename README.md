@@ -38,7 +38,7 @@ následující čára musí být vykreslena směrem nahoru/dolů ve stejném "sm
 nastavena na aktuální hodnotu *deltaX* a *deltaX* je nastavena na 0.
 
 Pokud byla aktuální změna provedena na ose Y (*deltaY != 0*), nové změně pro osu X (*deltaX*) je nastavena velikost
-změny Y (*deltaY*) snížená o velikost kroku. Navíc se násobí *-1*, což zajišťuje "správný směr" vykreslení čáry.
+změny Y (*deltaY*) snížená o velikost kroku. To zajišťuje "zespirálovatění" - nevykreslí se čtverec. Navíc se násobí *-1*, což zajišťuje "správný směr" vykreslení čáry.
 A (*deltaY*) je nastavena na 0;
 
 ### 4)
@@ -48,4 +48,4 @@ Následuje už jen opětovné zavolání metody s právě vypočtenými parametr
 
 
 ### Složitost algoritmu
-Složitost výše popsaného algoritmu je lineární (O(n))
+Složitost výše popsaného algoritmu je lineární - O(n).
